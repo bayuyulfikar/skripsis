@@ -66,7 +66,7 @@
     <body>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
-                <div class="top-right links">
+                <div class="center links">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
@@ -79,11 +79,11 @@
                 </div>
             @endif
 
-            <div class="content, text-xl-center">
+            <!-- <div class="content, text-xl-center">
                 <div class="link" font="36pxl">
                     <p href="https://laravel.com">LARAVEL!</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </body>
 </html>
